@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Question from "./components/Question";
 import NextQuestion from "./components/NextQuestion";
-import data from "../sample_data.json";
+import data from "./sample_data.json";
 
 function App() {
   const [answerState, setAnswerState] = useState("unanswered");
